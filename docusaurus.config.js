@@ -5,20 +5,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'OpenSauced',
   tagline: 'The path to your next Open Source contribution',
-  url: 'https://docs.opensauced.pizza',
+  url: 'https://prismatic-parfait-7a1b3a.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'open-sauced', // Usually your GitHub org/user name.
+  organizationName: 'Ant-Shell', // Usually your GitHub org/user name.
   projectName: 'docs.opensauced.pizza', // Usually your repo name.
   trailingSlash: true,
   themeConfig: {
     algolia: {
-      appId: 'bh4d9od16a',
-      apiKey: '1691a4a5b06166984397aa30153f663c',
-      indexName: 'opensauced',
-      algoliaOptions: { 'facetFilters': ["type:$TYPE"] },
+      appId: '34H1VXWG6S',
+      apiKey: '81164d0d88f1c0ffb5e2f3931752280e',
+      indexName: 'netlify_d7f37f65-cd3b-4cc4-94e5-29b7370c98c2_main_all',
+      searchParameters: { 'facetFilters': ["type:$TYPE"] },
       debug: false,
       placeholder: 'Search OpenSauced Docs',
     },
