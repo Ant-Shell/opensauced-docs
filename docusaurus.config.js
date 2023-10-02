@@ -140,7 +140,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/open-sauced/docs.opensauced.pizza/edit/main/',
+            'https://github.com/Ant-Shell/open-sauced/docs.opensauced.pizza/edit/main/',
           lastVersion: 'current',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
